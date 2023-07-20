@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+#wrap {
+  width: 84%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+header {
+  background: #333;
+  color: #FFF;
+  padding: 20px;
+}
+
+
+.main-menu {
+  background: #333;
+
+}
+
+.main-menu ul {
+  display: flex;
+}
+
+
+.main-menu ul li a {
+  color: #FFF;
+  display: block;
+  padding: 10px 20px;
+}
+
+.main-menu ul li a:hover {
+  background: #222;
+}
+
+
+.top p {
+  text-align: center;
+
+  padding: 70px;
+  height: 50px;
+
+}
+
+.illust {
+  display: flex;
+}
+
+
+section {
+  background: #EEE;
+  flex: 3;
+  padding: 20px;
+}
+
+article {
+  background: #FFF;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.sousaku img {
+  width:100%;
+  padding: 10px;
+  height: auto;
+  
+}
+
+#imgSet   {
+  display: flex;
+
+}
+
+.nijisousaku img{
+  width:90%;
+  padding: 10px;
+  height: auto; 
+}
+
+aside {
+  background: #DDD;
+  flex: 1;
+}
+
+.sub-menu {
+  background: #999;
+}
+
+.sub-menu ul li {
+  text-align: center;
+}
+
+.sub-menu ul li a {
+  color: #FFF;
+  display: block;
+  padding: 10px 20px;
+}
+
+.sub-menu ul li a:hover {
+  background: #666;
+}
+
+footer {
+  background: #333;
+  color: #FFF;
+  padding: 20px;
+  text-align: center;
+
+}
